@@ -257,8 +257,15 @@ html, body {
 body, input {
   font-family: "Montserrat", sans-serif; }
 
+body {
+  max-width: 100%; }
+
 img {
   max-width: 100%; }
+
+.container {
+  max-width: 100%;
+  overflow: hidden; }
 
 /* **** TYPOGRAPHY **** */
 h1, h2, h3, h4, h5, h6 {
@@ -644,6 +651,11 @@ footer {
   .container .steps-list {
     column-count: 1; } }
 @media screen and (max-width: 600px) {
+  .header-row .logo-div {
+    padding: 2em 0; }
+    .header-row .logo-div img {
+      max-width: 90%; }
+
   .opinions-div .slide-left, .opinions-div .slide-right {
     font-size: 35px; }
 
